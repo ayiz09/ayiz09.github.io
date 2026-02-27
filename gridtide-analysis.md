@@ -791,9 +791,6 @@ rule GridTide_GoogleSheets_C2_Backdoor
         $api_get  = "/v4/spreadsheets/%s/values/%s?valueRenderOption=FORMULA" ascii
         $api_post = "/v4/spreadsheets/%s/values:batchUpdate" ascii
 
-        // Embedded static OpenSSL version string
-        $openssl  = "OpenSSL 1.0.2k" ascii
-
         // Beacon field labels
         $beacon_hostname = "hostName: " ascii
         $beacon_user     = "user:     " ascii
@@ -805,6 +802,7 @@ rule GridTide_GoogleSheets_C2_Backdoor
             ($typo_tmezone and $batch_clear)
             or ($ua and $jwt_grant)
             or (3 of ($status_c, $status_u, $status_d, $api_get, $api_post))
+            or ($beacon_hostname and $beacon_user and $typo_tmezone)
         )
 }
 ```
