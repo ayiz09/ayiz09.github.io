@@ -6,3 +6,5 @@ Malware analysis and reverse engineering stuff....
 * [GRIDTIDE Malware analysis](https://ayiz09.github.io/gridtide-analysis)
 
    **Reference:** [Disrupting the GRIDTIDE Global Cyber Espionage Campaign - Google Cloud Blog](https://cloud.google.com/blog/topics/threat-intelligence/disrupting-gridtide-global-espionage-campaign?linkId=56917400)
+
+* [CVE-2026-21513 — Malicious Windows LNK Exploit](CVE-2026-21513_Analysis.md)
