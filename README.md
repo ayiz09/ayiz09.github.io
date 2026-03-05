@@ -1,6 +1,6 @@
 # Writing some RE !!
 
-![Reverse Engineering Logo](assets/your-logo-name.png)
+![Reverse Engineering Logo](assets/logo.png)
 
 Malware analysis and reverse engineering stuff....
 
