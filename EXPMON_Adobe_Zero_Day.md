@@ -12,7 +12,7 @@
 
 ## Overview
 
-Three-stage JavaScript attack chain delivered inside a PDF. Each stage decodes the next: JSFuck decodes obfuscator.io, which decrypts an AES-CTR+zlib stage 3 payload fetched live from C2. Stage 2 performs an **Acrobat JavaScript sandbox escape** using a type-confusion exploit against internal Adobe APIs — this unlocks Acrobat's privileged JS API tier but does **not** elevate the OS process token. Any OS-level privilege escalation would be the responsibility of the stage 3 payload (not recovered — delivered at runtime from C2).
+EXPMON has identified a complex PDF exploit aimed at Adobe Reader users. Three-stage JavaScript attack chain delivered inside a PDF. Each stage decodes the next: JSFuck decodes obfuscator.io, which decrypts an AES-CTR+zlib stage 3 payload fetched live from C2. Stage 2 performs an **Acrobat JavaScript sandbox escape** using a type-confusion exploit against internal Adobe APIs — this unlocks Acrobat's privileged JS API tier but does **not** elevate the OS process token. Any OS-level privilege escalation would be the responsibility of the stage 3 payload (not recovered — delivered at runtime from C2).
 
 ```
 PDF open
