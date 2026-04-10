@@ -10,3 +10,4 @@ Malware analysis and reverse engineering stuff....
    **Reference:** [Disrupting the GRIDTIDE Global Cyber Espionage Campaign - Google Cloud Blog](https://cloud.google.com/blog/topics/threat-intelligence/disrupting-gridtide-global-espionage-campaign?linkId=56917400)
 
 * [CVE-2026-21513 — Malicious Windows LNK Exploit](https://ayiz09.github.io/CVE-2026-21513_Analysis)
+* [Adobe PDF Reader Zero Day Analysis — Detected by EXPMON](https://ayiz09.github.io/EXPMON_Adobe_Zero_Day.md)
